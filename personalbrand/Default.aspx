@@ -68,7 +68,7 @@
                 <p>Whether you want to learn more about my journey or have a special order in mind, I'm here to help!</p>
                 <div class="cta-buttons">
                     <a href="About.aspx" class="btn-cta btn-learn">Learn More</a>
-                    <a href="Contact.aspx" class="btn-cta btn-contact-cta">Contact Me</a>
+                    <a href="Contact.aspx" class="btn-cta btn-learn">Contact Me</a>
                 </div>
             </div>
         </div>
