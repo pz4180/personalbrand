@@ -322,7 +322,7 @@ h1 {
 }
 
     .btn-learn:hover {
-        background: var(--primary-blue);
+        background: var(--primary-pink);
         color: white;
     }
 
@@ -332,8 +332,8 @@ h1 {
 }
 
     .btn-contact-cta:hover {
-        background: white;
-        color: var(--primary-blue);
+        background: var(--primary-pink);
+        color: white;
     }
 
 /* --- About Page --- */
@@ -523,6 +523,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
+    contain: layout style;
 }
 
 .gallery-item {
@@ -530,19 +531,22 @@ h1 {
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
     border: 2px solid var(--primary-yellow);
+    will-change: transform;
+    contain: layout style paint;
 }
 
     .gallery-item:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        transform: translateY(-8px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.12);
     }
 
     .gallery-item img {
         width: 100%;
         height: 220px;
         object-fit: cover;
+        content-visibility: auto;
     }
 
 .caption {

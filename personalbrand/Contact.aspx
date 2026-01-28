@@ -34,9 +34,12 @@
                 <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or question..." required></textarea>
             </div>
 
-            <button type="submit" class="btn-submit">
+            <div class="form-group">
+                <label for=""></label>
+                <button type="submit" class="btn-submit">
                 <i class="fas fa-paper-plane"></i> Send Message
-            </button>
+                </button>
+            </div>
         </form>
     </div>
 </asp:Content>

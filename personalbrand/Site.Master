@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MyPersonalBrand.Site" %>
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MyPersonalBrand.Site" %>
 
 <!DOCTYPE html>
 <html>
@@ -13,7 +13,7 @@
 <body>
     <form id="form1" runat="server">
         <nav class="navbar">
-             <a href="Default.aspx" class="logo-link">
+            <a href="Default.aspx" class="logo-link">
                 <div class="logo">Nio Pei Zhi 🍰</div>
             </a>
             <div class="nav-links">
@@ -43,9 +43,9 @@
                 <div class="footer-section">
                     <h4>Follow My Baking Journey</h4>
                     <div class="social-links">
-                        <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="mailto:nio@example.com" class="social-icon" title="Contact Me"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="Contact Me"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
