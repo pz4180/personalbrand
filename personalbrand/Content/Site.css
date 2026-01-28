@@ -13,6 +13,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fff9fa;
+    background-color: #fff9fa;
     color: var(--text-color);
     margin: 0;
     padding: 0;
@@ -262,7 +263,7 @@ h1 {
     width: 70px;
     height: 70px;
     margin: 0 auto 15px;
-    background: linear-gradient(135deg, var(--primary-pink) 0%, var(--primary-yellow) 100%);
+    background: var(--primary-pink);
     border-radius: 50%;
     display: flex;
     align-items: center;
