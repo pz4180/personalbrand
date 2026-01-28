@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MyPersonalBrand.Site" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Nio Pei Zhi | Pastry Chef</title>
+    <link href="Content/Site.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar">
+            <div class="logo">Nio Pei Zhi 🍰</div>
+            <div class="nav-links">
+                <a href="Default.aspx">Home</a>
+                <a href="About.aspx">About Me</a>
+                <a href="Portfolio.aspx">Creations</a>
+            </div>
+        </nav>
+
+        <div class="main-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Nio Pei Zhi. All rights reserved.</p>
+            <p>
+                Follow my baking journey: 
+                <a href="#">Instagram</a> | 
+                <a href="#">Facebook</a> | 
+                <a href="mailto:nio@example.com">Contact Me</a>
+            </p>
+        </footer>
+    </form>
+</body>
+</html>
