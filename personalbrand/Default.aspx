@@ -21,30 +21,6 @@
                 </p>
 
                 <a href="Portfolio.aspx" class="btn-cta">See My Creations</a>
-                <div class="hero-right">
-                    <div class="slider-container">
-                        <div class="slider">
-                            <div class="slide active">
-                                <img src="Images/cake1.jpg" alt="Wedding Cake" />
-                            </div>
-                            <div class="slide">
-                                <img src="Images/macarons.jpg" alt="Macarons" />
-                            </div>
-                            <div class="slide">
-                                <img src="Images/tart.jpg" alt="Fruit Tart" />
-                            </div>
-                            <div class="slide">
-                                <img src="Images/cupcakes.jpg" alt="Cupcakes" />
-                            </div>
-                        </div>
-                        <div class="slider-dots">
-                            <span class="dot active" onclick="currentSlide(0)"></span>
-                            <span class="dot" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                            <span class="dot" onclick="currentSlide(3)"></span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -97,31 +73,4 @@
             </div>
         </div>
     </section>
-
-    <script>
-        let currentIndex = 0;
-        const slides = document.querySelectorAll('.slide');
-        const dots = document.querySelectorAll('.dot');
-
-        function showSlide(index) {
-            slides.forEach((slide, i) => {
-                slide.classList.remove('active');
-                dots[i].classList.remove('active');
-            });
-            slides[index].classList.add('active');
-            dots[index].classList.add('active');
-        }
-
-        function currentSlide(index) {
-            currentIndex = index;
-            showSlide(currentIndex);
-        }
-
-        function nextSlide() {
-            currentIndex = (currentIndex + 1) % slides.length;
-            showSlide(currentIndex);
-        }
-
-        setInterval(nextSlide, 3000);
-    </script>
 </asp:Content>

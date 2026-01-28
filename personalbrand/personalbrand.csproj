@@ -72,8 +72,16 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Images\brioche.jpg" />
     <Content Include="Images\baking-action.jpg" />
     <Content Include="Images\cupcakes.jpg" />
+    <Content Include="Images\cake3.jpg" />
+    <Content Include="Images\croiss.jpg" />
+    <Content Include="Images\bague.jpg" />
+    <Content Include="Images\eclairs.jpg" />
+    <Content Include="Images\cake4.jpg" />
+    <Content Include="Images\cake2.jpg" />
+    <Content Include="Images\puff.jpg" />
     <Content Include="Images\tart.jpg" />
     <Content Include="Images\profile.jpg" />
     <Content Include="Images\cake1.jpg" />

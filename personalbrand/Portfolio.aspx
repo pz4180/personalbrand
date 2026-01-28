@@ -43,13 +43,13 @@
             <div class="gallery-item" data-category="cakes">
                 <img src="Images/cupcakes.jpg" alt="Cupcakes" />
                 <div class="caption">
-                    <h3>Galaxy Cupcakes</h3>
+                    <h3>Cupcakes</h3>
                     <p>Chocolate richness with nebula frosting.</p>
                 </div>
             </div>
 
             <div class="gallery-item" data-category="cakes">
-                <img src="Images/cake1.jpg" alt="Chocolate Layer Cake" />
+                <img src="Images/cake2.jpg" alt="Chocolate Layer Cake" />
                 <div class="caption">
                     <h3>Chocolate Layer Cake</h3>
                     <p>Rich dark chocolate layers with ganache filling.</p>
@@ -57,7 +57,7 @@
             </div>
 
             <div class="gallery-item" data-category="cakes">
-                <img src="Images/cake1.jpg" alt="Red Velvet Cake" />
+                <img src="Images/cake3.jpg" alt="Red Velvet Cake" />
                 <div class="caption">
                     <h3>Red Velvet Cake</h3>
                     <p>Classic red velvet with cream cheese frosting.</p>
@@ -65,7 +65,7 @@
             </div>
 
             <div class="gallery-item" data-category="breads">
-                <img src="Images/tart.jpg" alt="Croissants" />
+                <img src="Images/croiss.jpg" alt="Croissants" />
                 <div class="caption">
                     <h3>Butter Croissants</h3>
                     <p>Flaky, golden French croissants with pure butter.</p>
@@ -73,7 +73,7 @@
             </div>
 
             <div class="gallery-item" data-category="breads">
-                <img src="Images/tart.jpg" alt="Baguettes" />
+                <img src="Images/bague.jpg" alt="Baguettes" />
                 <div class="caption">
                     <h3>Artisan Baguettes</h3>
                     <p>Crusty exterior with soft, airy interior.</p>
@@ -81,7 +81,7 @@
             </div>
 
             <div class="gallery-item" data-category="pastries">
-                <img src="Images/macarons.jpg" alt="Eclairs" />
+                <img src="Images/eclairs.jpg" alt="Eclairs" />
                 <div class="caption">
                     <h3>Chocolate Eclairs</h3>
                     <p>Choux pastry filled with vanilla cream, topped with chocolate.</p>
@@ -89,7 +89,7 @@
             </div>
 
             <div class="gallery-item" data-category="pastries">
-                <img src="Images/macarons.jpg" alt="Cream Puffs" />
+                <img src="Images/puff.jpg" alt="Cream Puffs" />
                 <div class="caption">
                     <h3>Cream Puffs</h3>
                     <p>Light choux shells filled with whipped cream.</p>
@@ -97,7 +97,7 @@
             </div>
 
             <div class="gallery-item" data-category="breads">
-                <img src="Images/tart.jpg" alt="Brioche" />
+                <img src="Images/brioche.jpg" alt="Brioche" />
                 <div class="caption">
                     <h3>Golden Brioche</h3>
                     <p>Buttery, pillowy bread perfect for breakfast.</p>
@@ -105,7 +105,7 @@
             </div>
 
             <div class="gallery-item" data-category="cakes">
-                <img src="Images/cupcakes.jpg" alt="Tiramisu Cake" />
+                <img src="Images/cake4.jpg" alt="Tiramisu Cake" />
                 <div class="caption">
                     <h3>Tiramisu Cake</h3>
                     <p>Coffee-soaked layers with mascarpone cream.</p>

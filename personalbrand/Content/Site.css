@@ -292,7 +292,7 @@ h1 {
 }
 
     .cta-section .container {
-        background: linear-gradient(135deg, var(--primary-yellow) 0%, var(--primary-pink) 100%);
+        background: var(--primary-green);
         text-align: center;
     }
 

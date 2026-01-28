@@ -11,7 +11,8 @@
             <div class="about-text">
                 <h3>My Story</h3>
                 <p>
-                    My name is <strong>Nio Pei Zhi</strong>, and the kitchen has always been my playground.
+                    My name is <strong>Nio Pei Zhi</strong>,
+                    and the kitchen has always been my playground.
                     What started as helping my grandmother bake cookies on weekends has turned into a lifelong
                     obsession with the art of patisserie.
                 </p>
@@ -31,7 +32,7 @@
                         Sugar Art
                     </span>
                     <span class="skill-tag">
-                        <i class="fas fa-croissant"></i>
+                        <i class="fas fa-cookie"></i>
                         French Pastry
                     </span>
                     <span class="skill-tag">
