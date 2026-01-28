@@ -5,6 +5,7 @@
 <head runat="server">
     <title>Nio Pei Zhi | Pastry Chef</title>
     <link href="Content/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -12,11 +13,14 @@
 <body>
     <form id="form1" runat="server">
         <nav class="navbar">
-            <div class="logo">Nio Pei Zhi 🍰</div>
+             <a href="Default.aspx" class="logo-link">
+                <div class="logo">Nio Pei Zhi 🍰</div>
+            </a>
             <div class="nav-links">
                 <a href="Default.aspx">Home</a>
                 <a href="About.aspx">About Me</a>
                 <a href="Portfolio.aspx">Creations</a>
+                <a href="Contact.aspx" class="btn-contact">Contact</a>
             </div>
         </nav>
 
@@ -26,13 +30,26 @@
         </div>
 
         <footer>
-            <p>&copy; 2026 Nio Pei Zhi. All rights reserved.</p>
-            <p>
-                Follow my baking journey: 
-                <a href="#">Instagram</a> | 
-                <a href="#">Facebook</a> | 
-                <a href="mailto:nio@example.com">Contact Me</a>
-            </p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <div class="quick-links">
+                        <a href="Default.aspx">Home</a>
+                        <a href="About.aspx">About Me</a>
+                        <a href="Portfolio.aspx">Creations</a>
+                        <a href="Contact.aspx">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow My Baking Journey</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="mailto:nio@example.com" class="social-icon" title="Contact Me"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 Nio Pei Zhi. All rights reserved.</p>
         </footer>
     </form>
 </body>
