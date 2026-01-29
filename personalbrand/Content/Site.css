@@ -1,5 +1,4 @@
-﻿/* Site.css - Creative Pastry Chef Theme */
-:root {
+﻿:root {
     --primary-pink: #ff9eb5;
     --primary-yellow: #ffeb80;
     --primary-blue: #6cd3ff;
@@ -19,7 +18,7 @@ body {
     padding: 0;
 }
 
-/* --- Navigation --- */
+/*  Navigation  */
 .navbar {
     background-color: var(--white);
     padding: 15px 50px;
@@ -76,7 +75,7 @@ body {
         transform: scale(1.05);
     }
 
-/* --- Layout Containers --- */
+/*  Layout Containers  */
 .container {
     max-width: 1100px;
     margin: 40px auto;
@@ -86,7 +85,7 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
 
-/* --- Homepage Hero Section --- */
+/*  Homepage Hero Section  */
 .hero {
     padding: 50px 20px;
 }
@@ -154,68 +153,7 @@ h1 {
         transform: scale(1.05);
     }
 
-/* --- Image Slider --- */
-.slider-container {
-    position: relative;
-    width: 100%;
-    max-width: 450px;
-    margin: 0 auto;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-}
-
-.slider {
-    position: relative;
-    width: 100%;
-    height: 350px;
-}
-
-.slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-    .slide.active {
-        opacity: 1;
-    }
-
-    .slide img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-.slider-dots {
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 10px;
-}
-
-.dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.5);
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-    .dot.active {
-        background: var(--primary-pink);
-    }
-
-    .dot:hover {
-        background: var(--primary-yellow);
-    }
-
-/* --- What I Offer Section --- */
+/*  What I Offer Section */
 .highlights {
     background: linear-gradient(135deg, #fff9fa 0%, #fff 100%);
     padding: 20px 0;
@@ -287,7 +225,7 @@ h1 {
     line-height: 1.5;
 }
 
-/* --- CTA Section --- */
+/* CTA Section */
 .cta-section {
     padding: 20px 0;
 }
@@ -337,7 +275,7 @@ h1 {
         color: white;
     }
 
-/* --- About Page --- */
+/* About Page */
 .about-section {
     display: flex;
     gap: 40px;
@@ -387,7 +325,7 @@ h1 {
         font-size: 1.1rem;
     }
 
-/* --- Achievements Timeline --- */
+/* Achievements */
 .achievements-section {
     margin-top: 50px;
     padding-top: 30px;
@@ -488,7 +426,7 @@ h1 {
     font-size: 0.95rem;
 }
 
-/* --- Portfolio Page --- */
+/* Portfolio Page */
 .filter-section {
     display: flex;
     justify-content: center;
@@ -567,7 +505,7 @@ h1 {
         font-size: 0.9rem;
     }
 
-/* --- Contact Page --- */
+/* Contact Page */
 .contact-container {
     max-width: 700px;
 }
@@ -651,7 +589,7 @@ h1 {
         font-size: 1rem;
     }
 
-/* --- Footer --- */
+/* Footer */
 footer {
     text-align: center;
     padding: 50px 20px 30px;
@@ -731,7 +669,6 @@ footer a {
     font-weight: bold;
 }
 
-/* --- Responsive Design --- */
 @media (max-width: 768px) {
     .navbar {
         padding: 15px 20px;
